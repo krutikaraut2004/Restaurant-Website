@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supper Club by Krutika Raut</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header>
+      <section class="flex">
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> Supper Club</a>
+
+        <nav class="navbar">
+          <a class="active" href="#home">home</a>
+          <a href="#dishes">dishes</a>
+          <a href="#about">about</a>
+          <a href="#menu">menu</a>
+          <a href="#review">review</a>
+          <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+          <i class="fas fa-bars" id="menu-bars"></i>
+          <i class="fas fa-search" id="search-icon"></i>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+      </section>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <div class="container">
+      <section class="home" id="home">
+        <div class="swiper home-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Special Menu</span>
+                <h3>Basil Spaghetti</h3>
+                <p>
+                  Rustic Italian pizza topped with a medley of mushrooms,
+                  pancetta, and fresh herbs for a hearty and flavorful
+                  experience
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/home-img-1.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Special Menu</span>
+                <h3>Glazed Chicken</h3>
+                <p>
+                  Succulent chicken coated in a glossy glaze, delivering a
+                  perfect balance of sweet and savory flavors.
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/home-img-2.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Special Menu</span>
+                <h3>Pizza Boscaiola</h3>
+                <p>
+                  Rustic Italian pizza topped with a medley of mushrooms,
+                  pancetta, and fresh herbs for a hearty and flavorful
+                  experience.
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/home-img-3.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <div class="container">
+      <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Club's Favourite</h3>
+        <h1 class="heading">Popular dishes</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-1.png" alt="" />
+            <h3>Classic Burger</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs 350</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-2.png" alt="" />
+            <h3>Crispy Nuggets</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs 300</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="" />
+            <h3>Grilled Chicken</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs 800</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-4.png" alt="" />
+            <h3>Mushroom Pizza</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs 500</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="" />
+            <h3>Ice Cream & Cookie</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>Rs 450</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="" />
+            <h3>Fried Chicken Legs</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>rs 550</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <div class="container">
+      <section class="about" id="about">
+        <h3 class="sub-heading">About us</h3>
+        <h1 class="heading">Why choose Supper Club?</h1>
+
+        <div class="row">
+          <div class="image">
+            <img src="images/about-img.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>Best Food in the Town</h3>
+            <p>
+              At Supper Club, we're all about great food that everyone loves.
+              Our menu has tasty dishes made with the best ingredients, served
+              in a friendly atmosphere. We're here to make your dining
+              experience awesome and unforgettable!
+            </p>
+            <p><bold> Supper Club: Where Every Bite Feels Like Home </bold></p>
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>free delivery</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-dollar-sign"></i>
+                <span>easy payments</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 service</span>
+              </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <div class="container">
+      <section class="menu" id="menu">
+        <h3 class="sub-heading">our menu</h3>
+        <h1 class="heading">today's speciality</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-1.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>Pepperoni Pizza</h3>
+              <p>
+                Savor the perfect blend of zesty pepperoni and gooey cheese on a
+                crispy crust.
+              </p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 450</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-2.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>Meat Burger</h3>
+              <p>
+                Indulge in a mouthwatering meat burger, a symphony of flavors in
+                every bite.
+              </p>
+              <p></p>
+              <p></p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 500</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-3.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3>Crepe Delight</h3>
+              <p>
+                Experience the light and luscious allure of our delectable
+                crepes, a sweet and satisfying treat.
+              </p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 390</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-4.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Waffle Bliss</h3>
+              <p>
+                Irresistible waffles paired with velvety ice cream, a sweet
+                symphony of crunch and cream.
+              </p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 300</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-5.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Choco Dream Cake</h3>
+              <p>
+                Indulge in layers of heavenly chocolate mousse, a dreamy delight
+                for your sweetest moments.
+              </p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 470</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-6.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Berry Bliss Cupcakes</h3>
+              <p>
+                Delicate blueberry cupcakes, a burst of fruity joy in every
+                bite, a sweet treat for all.
+              </p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 550</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-7.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Margarita Bliss</h3>
+              <p>
+                A refreshing citrus cocktail that's the perfect blend of tangy
+                and sweet, promising a sip of pure joy.
+              </p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 580</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-8.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Acai Bowl</h3>
+              <p>
+                Indulge in a vibrant explosion of flavors with our Acai Fruit
+                Bowl, a wholesome and delightful treat.
+              </p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 600</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-9.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Fruit Fusion Elixir</h3>
+              <p>
+                Sip on the goodness of nature with our assortment of fresh fruit
+                juices, a delicious way to stay refreshed.
+              </p>
+              <a href="#" class="btn">add to cart</a>
+              <span class="price">Rs 240</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- menu section ends -->
+
+    <!-- review section starts  -->
+
+    <div class="container">
+      <section class="review" id="review">
+        <h3 class="sub-heading">Customer's review</h3>
+        <h1 class="heading">Hear What They're Saying!</h1>
+
+        <div class="swiper review-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/pic-1.png" alt="" />
+                <div class="user-info">
+                  <h3>Jordan Cooper</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "A culinary haven! Supper Club delivers an exceptional dining
+                experience with each bite – a true delight for the taste buds.".
+              </p>
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/pic-2.png" alt="" />
+                <div class="user-info">
+                  <h3>Alex Bennett</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "The Acai Burst Bowl is a burst of happiness in every spoonful!
+                Fresh, vibrant, and absolutely delicious."
+              </p>
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/pic-3.png" alt="" />
+                <div class="user-info">
+                  <h3>Kevin Evans</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "Quench your thirst with Fruit Fusion Elixir – a symphony of
+                flavors that keeps me coming back for more!"
+              </p>
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/pic-4.png" alt="" />
+                <div class="user-info">
+                  <h3>Taylor Hayes</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "Supper Club, where the Margarita Bliss stole my heart – a
+                perfect mix of zesty goodness that lingers on the palate."
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- review section ends -->
+
+    <!-- order section starts  -->
+
+    <div class="container">
+      <section class="order" id="order">
+        <h3 class="sub-heading">order now</h3>
+        <h1 class="heading">free and fast</h1>
+
+        <form action="">
+          <div class="inputBox">
+            <div class="input">
+              <span>your name</span>
+              <input type="text" placeholder="enter your name" />
+            </div>
+            <div class="input">
+              <span>your number</span>
+              <input type="number" placeholder="enter your number" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>your order</span>
+              <input type="text" placeholder="enter food name" />
+            </div>
+            <div class="input">
+              <span>additional food</span>
+              <input type="test" placeholder="extra with food" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>quantity</span>
+              <input type="number" placeholder="how many orders" />
+            </div>
+            <div class="input">
+              <span>date and time</span>
+              <input type="datetime-local" />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>your address</span>
+              <textarea
+                name=""
+                placeholder="enter your address"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="input">
+              <span>your message</span>
+              <textarea
+                name=""
+                placeholder="enter your message"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+
+          <input type="submit" value="order now" class="btn" />
+        </form>
+      </section>
+    </div>
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <div class="container">
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>Locations</h3>
+            <a href="#">Vashi</a>
+            <a href="#">Bandra</a>
+            <a href="#">Juhu</a>
+            <a href="#">Panvel</a>
+            <a href="#">Colaba</a>
+          </div>
+
+          <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">reivew</a>
+            <a href="#">order</a>
+          </div>
+
+          <div class="box">
+            <h3>Contact Us Here!</h3>
+            <a href="#">+91 0000000000</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">rautkrutika2004@gmail.com</a>
+            <a href="#">abc@gmail.com</a>
+            <a href="#">Navi Mumbai, india - 400706</a>
+          </div>
+
+          <div class="box">
+            <h3>Follow us on</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+          </div>
+        </div>
+
+        <div class="credit">
+          copyright @ 2023 by
+          <span
+            >KRUTIKA RAUT <i class="fa fa-heart" aria-hidden="true"></i
+          ></span>
+        </div>
+      </section>
+    </div>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <div class="loader-container">
+      <img src="images/loader.gif" alt="" />
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
